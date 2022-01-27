@@ -8,6 +8,9 @@ namespace Mission4.Models
 {
     public class ApplicationResponse
     {
+        [Key]
+        [Required]
+        public int id { get; set; }
         [Required]
         public string Category { get; set; }
 
